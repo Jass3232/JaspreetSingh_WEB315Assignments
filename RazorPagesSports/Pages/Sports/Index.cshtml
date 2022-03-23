@@ -1,0 +1,54 @@
+@page
+@model RazorPagesSports.Pages_Sports.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Sports[0].Name_of_Game)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Sports[0].Uniform_Color)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Sports[0].Number_of_Player)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Sports[0].First_Price)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Sports) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name_of_Game)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Uniform_Color)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Number_of_Player)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.First_Price)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.ID">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.ID">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.ID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
