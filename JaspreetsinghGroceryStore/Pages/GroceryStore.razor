@@ -1,0 +1,23 @@
+﻿@page "/GroceryStore"
+<h3>GroceryStore</h3>
+<ul>
+    @foreach (var FoodItem in FoodItems)
+    {
+        <li>@FoodItem.Title</li>
+    }
+</ul>
+<input placeholder="Grocery" />
+<button>Add Grocery</button>
+@code {
+private List<FoodItem> FoodItems = new();
+     
+      private string newFoodItem;
+     private void AddFoodItem()  
+    {
+        if (!string.IsNullOrWhiteSpace(newFoodItem))
+        {
+            FoodItems.Add(new FoodItem { Title = newFoodItem });
+            newFoodItem = string.Empty;
+        }
+    }
+}
