@@ -1,23 +1,52 @@
 ﻿@page "/GroceryStore"
 <h3>GroceryStore</h3>
+
+
+<h3>Todo (@FoodList.Count(singleFoodItem => !singleFoodItem.IsDone))</h3>
+
+<input placeholder="Something Food" @bind="newFoodName" />
+<button @onclick="AddFood">Add food</button>
+
+
+
 <ul>
-    @foreach (var FoodItem in FoodItems)
+
+
+    @foreach (var Food in FoodList)
     {
-        <li>@FoodItem.Title</li>
+        @if (Food.IsDone) // only show the item if we haven't finished it
+        {
+            <li>
+        <input type="checkbox" @bind="Food.IsDone" />
+                <input @bind="Food.Name" />
+                </li>
+    }
+     
     }
 </ul>
-<input placeholder="Grocery" />
-<button>Add Grocery</button>
+
 @code {
-private List<FoodItem> FoodItems = new();
+private List<FoodItem> FoodList = new();
      
-      private string newFoodItem;
-     private void AddFoodItem()  
-    {
-        if (!string.IsNullOrWhiteSpace(newFoodItem))
+      private string newFoodName;
+      
+     private void AddFood()  
+{
+        FoodItem newItem;
+        if (!string.IsNullOrWhiteSpace(newFoodName))
         {
-            FoodItems.Add(new FoodItem { Title = newFoodItem });
-            newFoodItem = string.Empty;
-        }
+        newItem = new FoodItem
+            {
+                Name = newFoodName
+                @* IsDone = true *@
+            };
+            FoodList.Add(newItem);
+            newFoodName = ""; 
+         }
+}
+
+      private bool FoodIsDone(FoodItem singleFoodItem)
+    {
+        return !singleFoodItem.IsDone;
     }
 }
