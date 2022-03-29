@@ -1,10 +1,8 @@
 public class FoodItem
 {
+    
     public string Name { get; set; }
-    public int Quantity  { get; set; }
-
-    public string Size  { get; set; }
-    public int Date  { get; set; }
-      public float Price  { get; set; }
-      public bool IsDone { get; set; }
+    public string Company { get; set; }
+    public float Price { get; set; }
+    public decimal Quantity { get; set; }
 }

@@ -1,52 +1,138 @@
 ﻿@page "/GroceryStore"
-<h3>GroceryStore</h3>
-
-
-<h3>Todo (@FoodList.Count(singleFoodItem => !singleFoodItem.IsDone))</h3>
-
-<input placeholder="Something Food" @bind="newFoodName" />
-<button @onclick="AddFood">Add food</button>
-
-
-
-<ul>
-
-
-    @foreach (var Food in FoodList)
-    {
-        @if (Food.IsDone) // only show the item if we haven't finished it
-        {
-            <li>
-        <input type="checkbox" @bind="Food.IsDone" />
-                <input @bind="Food.Name" />
-                </li>
-    }
-     
-    }
-</ul>
-
-@code {
-private List<FoodItem> FoodList = new();
-     
-      private string newFoodName;
-      
-     private void AddFood()  
+  <h2> Add Food items</h2>
+<form>
+        
+            <div class="row">
+                <div class="mb-3">
+                    <label for="Name"class="form-label" >Name</label>
+                <input type="text" class="form-control" name="foodName" @bind="foodNamevalue" required>
+                </div>
+               <div class="mb-3">
+                <label for="Price" class="form-label">Unit Price</label>
+                <input type="number" class="form-control" name="unitPrice" @bind="unitPricevalue" required>
+                </div>
+                <div class="mb-3">
+                <label for="Quantity" class="form-label">Quantity</label>
+                <input type="number" max="20" min="0" class="form-control" name="quantity" @bind="quantityvalue" required>
+                </div>
+               <div class="mb-3">
+                    <label for="isleNumber"  class="form-label">Isle number</label>
+                <input type="number" class="form-control" name="isleNumber" @bind="islevalue" required></input>
+                </div>
+            
+            <button type="button" class="btn btn-primary mt-2" @onclick="AddNewFoodItem">Add Food Item</button>
+            </div>  </form>
+@foreach (var isle in islesList)
 {
-        FoodItem newItem;
-        if (!string.IsNullOrWhiteSpace(newFoodName))
-        {
-        newItem = new FoodItem
+    <h5>Isle number @isle.IsleNumber : @isle.IsleName</h5>
+    <table class="table table-primary table-hover">
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Product Company</th>
+            <th>Price</th>
+            <th>Quantity</th>
+          
+        </tr>
+        </thead>
+        <tbody>
+            @foreach (var foodItem in isle.foodlist)
             {
-                Name = newFoodName
-                @* IsDone = true *@
-            };
-            FoodList.Add(newItem);
-            newFoodName = ""; 
-         }
+                <tr>
+                    <td>@foodItem.Name</td>
+                    <td>@foodItem.Company</td>
+                    <td>@foodItem.Price</td>
+                    <td>@foodItem.Quantity</td>
+                    <td>
+                        <button class="icon-minus" @onclick="() => DecreaseQuantity(foodItem, isle.IsleNumber)"><span  aria-hidden="true"></span></button>
+                        <button class="icon-plus-sign" @onclick="() => IncreaseQuantity(foodItem, isle.IsleNumber)"><span  aria-hidden="true"></span></button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
 }
 
-      private bool FoodIsDone(FoodItem singleFoodItem)
+
+@code
+{   
+    [Parameter]
+    public bool addFood { get; set; }
+    private string islevalue;
+    private string foodNamevalue;
+    private string Companyvalue;
+    private string unitPricevalue;
+    private string quantityvalue;  
+    private List<GroceryIsle> islesList = new ()
+        {
+            new GroceryIsle("Backing &Cooking", 1, new List<FoodItem>()
+            {
+                new FoodItem {Name = "Salt", Quantity = 13, Company = "Windsor", Price = 2},
+                new FoodItem {Name = "Sugar", Quantity = 5, Company = "Redpath", Price = 3},
+                new FoodItem {Name = "Brown-Sugar", Quantity = 4, Company = "Redpath", Price = 3}
+            }),
+            new GroceryIsle("Frozen Snacks", 2, new List<FoodItem>()
+            {
+                new FoodItem {Name = "Fries", Quantity = 2, Company = "Mc", Price = 5},
+                new FoodItem {Name = "spring rols", Quantity = 4, Company = "Great value", Price = 5},
+                new FoodItem {Name = "Pizza pop", Quantity = 4, Company = "Great value", Price = 5}
+            }),
+          
+        };
+
+    private void IncreaseQuantity (FoodItem foodItem, decimal isleNumber)
     {
-        return !singleFoodItem.IsDone;
+        var groceryIsle = islesList.Find(isle => isle.IsleNumber == isleNumber);
+        var groceryFood = groceryIsle.foodlist.Find(food => food.Name == foodItem.Name);
+
+        if (groceryFood.Quantity >= 20) return;
+
+        groceryFood.Quantity += 1;
+    }
+     private void DecreaseQuantity (FoodItem foodItem, decimal isleNumber)
+    {
+        var groceryIsle = islesList.Find(isle => isle.IsleNumber == isleNumber);
+        var groceryFood = groceryIsle.foodlist.Find(food => food.Name == foodItem.Name);
+
+        if (groceryFood.Quantity <= 0) return;
+
+        groceryFood.Quantity -= 1;
+    }
+
+    private void AddNewFoodItem ()
+    {
+        if (string.IsNullOrWhiteSpace(islevalue)) return;
+        if (string.IsNullOrWhiteSpace(foodNamevalue)) return;
+        if (string.IsNullOrWhiteSpace(Companyvalue)) return;
+        if (string.IsNullOrWhiteSpace(unitPricevalue)) return;
+        if (string.IsNullOrWhiteSpace(quantityvalue)) return;
+
+        FoodItem newFoodItem = new FoodItem 
+            {
+                Name = foodNamevalue,
+                Quantity = decimal.Parse(quantityvalue),
+                Company = Companyvalue,
+                Price = float.Parse(unitPricevalue)
+            };
+
+
+        try
+        {
+            var isleToUpdate = islesList.Find(isle => isle.IsleNumber == decimal.Parse(islevalue));
+            isleToUpdate.foodlist.Add(newFoodItem);
+        }
+        catch (Exception Error)
+        {
+            throw Error;
+        }
+
+        islevalue = string.Empty;
+        foodNamevalue = string.Empty;
+        Companyvalue = string.Empty;
+        unitPricevalue = string.Empty;
+        quantityvalue = string.Empty;
     }
 }
+ 
+  
+      
