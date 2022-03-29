@@ -67,38 +67,56 @@
         {
             new GroceryIsle("Backing &Cooking", 1, new List<FoodItem>()
             {
-                new FoodItem {Name = "Salt", Quantity = 13, Company = "Windsor", Price = 2},
-                new FoodItem {Name = "Sugar", Quantity = 5, Company = "Redpath", Price = 3},
-                new FoodItem {Name = "Brown-Sugar", Quantity = 4, Company = "Redpath", Price = 3}
-            }),
+                new FoodItem 
+                {
+                Name = "Salt", 
+                Quantity = 13, 
+                Company = "Windsor", 
+                Price = 2
+                },
+                new FoodItem 
+                {
+                Name = "Sugar",
+                Quantity = 5,
+                Company = "Redpath",
+                Price = 3
+                },
+                new FoodItem 
+                {
+                Name = "Brown-Sugar",
+                Quantity = 4, 
+                Company = "Redpath",
+                Price = 3
+                      }
+                }),
             new GroceryIsle("Frozen Snacks", 2, new List<FoodItem>()
             {
-                new FoodItem {Name = "Fries", Quantity = 2, Company = "Mc", Price = 5},
-                new FoodItem {Name = "spring rols", Quantity = 4, Company = "Great value", Price = 5},
-                new FoodItem {Name = "Pizza pop", Quantity = 4, Company = "Great value", Price = 5}
-            }),
+                new FoodItem 
+                {
+                    Name = "Fries",
+                    Quantity = 2,
+                    Company = "Mc",
+                    Price = 5
+                       },
+                new FoodItem 
+                {
+                    Name = "spring rols",
+                    Quantity = 4,
+                    Company = "Great value",
+                    Price = 5
+                    },
+                new FoodItem 
+                {
+                    Name = "Pizza pop",
+                    Quantity = 4,
+                    Company = "Great value",
+                    Price = 5
+                       }
+                  }),
           
-        };
+                };
 
-    private void IncreaseQuantity (FoodItem foodItem, decimal isleNumber)
-    {
-        var groceryIsle = islesList.Find(isle => isle.IsleNumber == isleNumber);
-        var groceryFood = groceryIsle.foodlist.Find(food => food.Name == foodItem.Name);
-
-        if (groceryFood.Quantity >= 20) return;
-
-        groceryFood.Quantity += 1;
-    }
-     private void DecreaseQuantity (FoodItem foodItem, decimal isleNumber)
-    {
-        var groceryIsle = islesList.Find(isle => isle.IsleNumber == isleNumber);
-        var groceryFood = groceryIsle.foodlist.Find(food => food.Name == foodItem.Name);
-
-        if (groceryFood.Quantity <= 0) return;
-
-        groceryFood.Quantity -= 1;
-    }
-
+  
     private void AddNewFoodItem ()
     {
         if (string.IsNullOrWhiteSpace(islevalue)) return;
@@ -132,6 +150,25 @@
         unitPricevalue = string.Empty;
         quantityvalue = string.Empty;
     }
+      private void IncreaseQuantity (FoodItem foodItem, decimal isleNumber)
+    {
+        var groceryIsle = islesList.Find(isle => isle.IsleNumber == isleNumber);
+        var groceryFood = groceryIsle.foodlist.Find(food => food.Name == foodItem.Name);
+
+        if (groceryFood.Quantity >= 20) return;
+
+        groceryFood.Quantity += 1;
+    }
+     private void DecreaseQuantity (FoodItem foodItem, decimal isleNumber)
+    {
+        var groceryIsle = islesList.Find(isle => isle.IsleNumber == isleNumber);
+        var groceryFood = groceryIsle.foodlist.Find(food => food.Name == foodItem.Name);
+
+        if (groceryFood.Quantity <= 0) return;
+
+        groceryFood.Quantity -= 1;
+    }
+
 }
  
   
