@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Cheema\\Documents\\GitHub\\JaspreetsinghGroceryStore\\JaspreetsinghGroceryStore.csproj",
-      "projectName": "JaspreetsinghGroceryStore",
-      "projectPath": "C:\\Users\\Cheema\\Documents\\GitHub\\JaspreetsinghGroceryStore\\JaspreetsinghGroceryStore.csproj",
+      "projectUniqueName": "C:\\Users\\Cheema\\Documents\\GitHub\\JaspreetSingh_WEB315Assignments\\JaspreetSinghGrocerystore\\JaspreetSinghGrocerystore.csproj",
+      "projectName": "JaspreetSinghGrocerystore",
+      "projectPath": "C:\\Users\\Cheema\\Documents\\GitHub\\JaspreetSingh_WEB315Assignments\\JaspreetSinghGrocerystore\\JaspreetSinghGrocerystore.csproj",
       "packagesPath": "C:\\Users\\Cheema\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Cheema\\Documents\\GitHub\\JaspreetsinghGroceryStore\\obj\\",
+      "outputPath": "C:\\Users\\Cheema\\Documents\\GitHub\\JaspreetSingh_WEB315Assignments\\JaspreetSinghGrocerystore\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Cheema\\AppData\\Roaming\\NuGet\\NuGet.Config"

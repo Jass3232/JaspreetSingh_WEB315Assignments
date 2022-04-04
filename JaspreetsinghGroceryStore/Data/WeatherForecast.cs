@@ -1,6 +1,6 @@
 using System;
 
-namespace JaspreetsinghGroceryStore.Data
+namespace JaspreetSinghGrocerystore.Data
 {
     public class WeatherForecast
     {

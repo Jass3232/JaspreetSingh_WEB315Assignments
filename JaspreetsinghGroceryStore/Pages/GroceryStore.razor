@@ -25,7 +25,7 @@
 @foreach (var isle in islesList)
 {
     <h5>Isle number @isle.IsleNumber : @isle.IsleName</h5>
-    <table class="table table-primary table-hover">
+    <table class="table table-striped" >
         <thead>
         <tr>
             <th>Name</th>
@@ -44,8 +44,8 @@
                     <td>@foodItem.Price</td>
                     <td>@foodItem.Quantity</td>
                     <td>
-                        <button class="icon-minus" @onclick="() => DecreaseQuantity(foodItem, isle.IsleNumber)"><span  aria-hidden="true"></span></button>
-                        <button class="icon-plus-sign" @onclick="() => IncreaseQuantity(foodItem, isle.IsleNumber)"><span  aria-hidden="true"></span></button>
+                        <button class="oi oi-plus" @onclick="Quality"></button>
+
                     </td>
                 </tr>
             }
@@ -150,26 +150,13 @@
         unitPricevalue = string.Empty;
         quantityvalue = string.Empty;
     }
-      private void IncreaseQuantity (FoodItem foodItem, decimal isleNumber)
+   
+
+  private int qualityvalue = 0;
+
+    private void Quality()
     {
-        var groceryIsle = islesList.Find(isle => isle.IsleNumber == isleNumber);
-        var groceryFood = groceryIsle.foodlist.Find(food => food.Name == foodItem.Name);
-
-        if (groceryFood.Quantity >= 20) return;
-
-        groceryFood.Quantity += 1;
+           qualityvalue++;
+    
     }
-     private void DecreaseQuantity (FoodItem foodItem, decimal isleNumber)
-    {
-        var groceryIsle = islesList.Find(isle => isle.IsleNumber == isleNumber);
-        var groceryFood = groceryIsle.foodlist.Find(food => food.Name == foodItem.Name);
-
-        if (groceryFood.Quantity <= 0) return;
-
-        groceryFood.Quantity -= 1;
-    }
-
 }
- 
-  
-      

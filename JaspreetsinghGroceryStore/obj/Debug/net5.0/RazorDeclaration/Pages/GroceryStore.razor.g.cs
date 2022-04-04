@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace JaspreetsinghGroceryStore.Pages
+namespace JaspreetSinghGrocerystore.Pages
 {
     #line hidden
     using System;
@@ -13,71 +13,71 @@ namespace JaspreetsinghGroceryStore.Pages
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "c:\Users\Cheema\Documents\GitHub\JaspreetsinghGroceryStore\_Imports.razor"
+#line 1 "c:\Users\Cheema\Documents\GitHub\JaspreetSingh_WEB315Assignments\JaspreetSinghGrocerystore\_Imports.razor"
 using System.Net.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "c:\Users\Cheema\Documents\GitHub\JaspreetsinghGroceryStore\_Imports.razor"
+#line 2 "c:\Users\Cheema\Documents\GitHub\JaspreetSingh_WEB315Assignments\JaspreetSinghGrocerystore\_Imports.razor"
 using Microsoft.AspNetCore.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "c:\Users\Cheema\Documents\GitHub\JaspreetsinghGroceryStore\_Imports.razor"
+#line 3 "c:\Users\Cheema\Documents\GitHub\JaspreetSingh_WEB315Assignments\JaspreetSinghGrocerystore\_Imports.razor"
 using Microsoft.AspNetCore.Components.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "c:\Users\Cheema\Documents\GitHub\JaspreetsinghGroceryStore\_Imports.razor"
+#line 4 "c:\Users\Cheema\Documents\GitHub\JaspreetSingh_WEB315Assignments\JaspreetSinghGrocerystore\_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "c:\Users\Cheema\Documents\GitHub\JaspreetsinghGroceryStore\_Imports.razor"
+#line 5 "c:\Users\Cheema\Documents\GitHub\JaspreetSingh_WEB315Assignments\JaspreetSinghGrocerystore\_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "c:\Users\Cheema\Documents\GitHub\JaspreetsinghGroceryStore\_Imports.razor"
+#line 6 "c:\Users\Cheema\Documents\GitHub\JaspreetSingh_WEB315Assignments\JaspreetSinghGrocerystore\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "c:\Users\Cheema\Documents\GitHub\JaspreetsinghGroceryStore\_Imports.razor"
+#line 7 "c:\Users\Cheema\Documents\GitHub\JaspreetSingh_WEB315Assignments\JaspreetSinghGrocerystore\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web.Virtualization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "c:\Users\Cheema\Documents\GitHub\JaspreetsinghGroceryStore\_Imports.razor"
+#line 8 "c:\Users\Cheema\Documents\GitHub\JaspreetSingh_WEB315Assignments\JaspreetSinghGrocerystore\_Imports.razor"
 using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "c:\Users\Cheema\Documents\GitHub\JaspreetsinghGroceryStore\_Imports.razor"
-using JaspreetsinghGroceryStore;
+#line 9 "c:\Users\Cheema\Documents\GitHub\JaspreetSingh_WEB315Assignments\JaspreetSinghGrocerystore\_Imports.razor"
+using JaspreetSinghGrocerystore;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 10 "c:\Users\Cheema\Documents\GitHub\JaspreetsinghGroceryStore\_Imports.razor"
-using JaspreetsinghGroceryStore.Shared;
+#line 10 "c:\Users\Cheema\Documents\GitHub\JaspreetSingh_WEB315Assignments\JaspreetSinghGrocerystore\_Imports.razor"
+using JaspreetSinghGrocerystore.Shared;
 
 #line default
 #line hidden
@@ -91,18 +91,108 @@ using JaspreetsinghGroceryStore.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 11 "c:\Users\Cheema\Documents\GitHub\JaspreetsinghGroceryStore\Pages\GroceryStore.razor"
-       
-private List<FoodItem> FoodItems = new();
-     
-      private string newFoodItem;
-     private void AddFoodItem()  
-    {
-        if (!string.IsNullOrWhiteSpace(newFoodItem))
+#line 58 "c:\Users\Cheema\Documents\GitHub\JaspreetSingh_WEB315Assignments\JaspreetSinghGrocerystore\Pages\GroceryStore.razor"
+    
+    [Parameter]
+    public bool addFood { get; set; }
+    private string islevalue;
+    private string foodNamevalue;
+    private string Companyvalue;
+    private string unitPricevalue;
+    private string quantityvalue;  
+    private List<GroceryIsle> islesList = new ()
         {
-            FoodItems.Add(new FoodItem { Title = newFoodItem });
-            newFoodItem = string.Empty;
+            new GroceryIsle("Backing &Cooking", 1, new List<FoodItem>()
+            {
+                new FoodItem 
+                {
+                Name = "Salt", 
+                Quantity = 13, 
+                Company = "Windsor", 
+                Price = 2
+                },
+                new FoodItem 
+                {
+                Name = "Sugar",
+                Quantity = 5,
+                Company = "Redpath",
+                Price = 3
+                },
+                new FoodItem 
+                {
+                Name = "Brown-Sugar",
+                Quantity = 4, 
+                Company = "Redpath",
+                Price = 3
+                      }
+                }),
+            new GroceryIsle("Frozen Snacks", 2, new List<FoodItem>()
+            {
+                new FoodItem 
+                {
+                    Name = "Fries",
+                    Quantity = 2,
+                    Company = "Mc",
+                    Price = 5
+                       },
+                new FoodItem 
+                {
+                    Name = "spring rols",
+                    Quantity = 4,
+                    Company = "Great value",
+                    Price = 5
+                    },
+                new FoodItem 
+                {
+                    Name = "Pizza pop",
+                    Quantity = 4,
+                    Company = "Great value",
+                    Price = 5
+                       }
+                  }),
+          
+                };
+
+  
+    private void AddNewFoodItem ()
+    {
+        if (string.IsNullOrWhiteSpace(islevalue)) return;
+        if (string.IsNullOrWhiteSpace(foodNamevalue)) return;
+        if (string.IsNullOrWhiteSpace(Companyvalue)) return;
+        if (string.IsNullOrWhiteSpace(unitPricevalue)) return;
+        if (string.IsNullOrWhiteSpace(quantityvalue)) return;
+
+        FoodItem newFoodItem = new FoodItem 
+            {
+                Name = foodNamevalue,
+                Quantity = decimal.Parse(quantityvalue),
+                Company = Companyvalue,
+                Price = float.Parse(unitPricevalue)
+            };
+
+
+        try
+        {
+            var isleToUpdate = islesList.Find(isle => isle.IsleNumber == decimal.Parse(islevalue));
+            isleToUpdate.foodlist.Add(newFoodItem);
         }
+        catch (Exception Error)
+        {
+            throw Error;
+        }
+
+        islevalue = string.Empty;
+        foodNamevalue = string.Empty;
+        Companyvalue = string.Empty;
+        unitPricevalue = string.Empty;
+        quantityvalue = string.Empty;
+    }
+   
+ private int Quantity = 0;
+
+    private void IncrementCount()
+    {
+        Quantity++;
     }
 
 #line default

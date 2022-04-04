@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\Cheema\\Documents\\GitHub\\JaspreetsinghGroceryStore\\JaspreetsinghGroceryStore.csproj",
+  "FilePath": "c:\\Users\\Cheema\\Documents\\GitHub\\JaspreetSingh_WEB315Assignments\\JaspreetSinghGrocerystore\\JaspreetSinghGrocerystore.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -12,43 +12,10 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": 270576462,
+        "HashCode": -949012153,
         "Kind": "Components.Component",
-        "Name": "JaspreetsinghGroceryStore.Pages.Counter",
-        "AssemblyName": "JaspreetsinghGroceryStore",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Counter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "JaspreetsinghGroceryStore.Pages.Counter"
-        }
-      },
-      {
-        "HashCode": 830268177,
-        "Kind": "Components.Component",
-        "Name": "JaspreetsinghGroceryStore.Pages.Counter",
-        "AssemblyName": "JaspreetsinghGroceryStore",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "JaspreetsinghGroceryStore.Pages.Counter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "JaspreetsinghGroceryStore.Pages.Counter",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 183152389,
-        "Kind": "Components.Component",
-        "Name": "JaspreetsinghGroceryStore.Pages.FetchData",
-        "AssemblyName": "JaspreetsinghGroceryStore",
+        "Name": "JaspreetSinghGrocerystore.Pages.FetchData",
+        "AssemblyName": "JaspreetSinghGrocerystore",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
@@ -57,31 +24,31 @@
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "JaspreetsinghGroceryStore.Pages.FetchData"
+          "Common.TypeName": "JaspreetSinghGrocerystore.Pages.FetchData"
         }
       },
       {
-        "HashCode": -2141907448,
+        "HashCode": -1897765797,
         "Kind": "Components.Component",
-        "Name": "JaspreetsinghGroceryStore.Pages.FetchData",
-        "AssemblyName": "JaspreetsinghGroceryStore",
+        "Name": "JaspreetSinghGrocerystore.Pages.FetchData",
+        "AssemblyName": "JaspreetSinghGrocerystore",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "JaspreetsinghGroceryStore.Pages.FetchData"
+            "TagName": "JaspreetSinghGrocerystore.Pages.FetchData"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "JaspreetsinghGroceryStore.Pages.FetchData",
+          "Common.TypeName": "JaspreetSinghGrocerystore.Pages.FetchData",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
       {
-        "HashCode": -2091533962,
+        "HashCode": 513878423,
         "Kind": "Components.Component",
-        "Name": "JaspreetsinghGroceryStore.Pages.Index",
-        "AssemblyName": "JaspreetsinghGroceryStore",
+        "Name": "JaspreetSinghGrocerystore.Pages.Index",
+        "AssemblyName": "JaspreetSinghGrocerystore",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
@@ -90,64 +57,117 @@
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "JaspreetsinghGroceryStore.Pages.Index"
+          "Common.TypeName": "JaspreetSinghGrocerystore.Pages.Index"
         }
       },
       {
-        "HashCode": -641429897,
+        "HashCode": -1368182893,
         "Kind": "Components.Component",
-        "Name": "JaspreetsinghGroceryStore.Pages.Index",
-        "AssemblyName": "JaspreetsinghGroceryStore",
+        "Name": "JaspreetSinghGrocerystore.Pages.Index",
+        "AssemblyName": "JaspreetSinghGrocerystore",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "JaspreetsinghGroceryStore.Pages.Index"
+            "TagName": "JaspreetSinghGrocerystore.Pages.Index"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "JaspreetsinghGroceryStore.Pages.Index",
+          "Common.TypeName": "JaspreetSinghGrocerystore.Pages.Index",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
       {
-        "HashCode": 666053186,
+        "HashCode": -1467820698,
         "Kind": "Components.Component",
-        "Name": "JaspreetsinghGroceryStore.App",
-        "AssemblyName": "JaspreetsinghGroceryStore",
+        "Name": "JaspreetSinghGrocerystore.Pages.GroceryStore",
+        "AssemblyName": "JaspreetSinghGrocerystore",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "App"
+            "TagName": "GroceryStore"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "addFood",
+            "TypeName": "System.Boolean",
+            "Metadata": {
+              "Common.PropertyName": "addFood"
+            }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "JaspreetsinghGroceryStore.App"
+          "Common.TypeName": "JaspreetSinghGrocerystore.Pages.GroceryStore"
         }
       },
       {
-        "HashCode": -1289869572,
+        "HashCode": 1821356932,
         "Kind": "Components.Component",
-        "Name": "JaspreetsinghGroceryStore.App",
-        "AssemblyName": "JaspreetsinghGroceryStore",
+        "Name": "JaspreetSinghGrocerystore.Pages.GroceryStore",
+        "AssemblyName": "JaspreetSinghGrocerystore",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "JaspreetsinghGroceryStore.App"
+            "TagName": "JaspreetSinghGrocerystore.Pages.GroceryStore"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "addFood",
+            "TypeName": "System.Boolean",
+            "Metadata": {
+              "Common.PropertyName": "addFood"
+            }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "JaspreetsinghGroceryStore.App",
+          "Common.TypeName": "JaspreetSinghGrocerystore.Pages.GroceryStore",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
       {
-        "HashCode": -1913992042,
+        "HashCode": -495403477,
         "Kind": "Components.Component",
-        "Name": "JaspreetsinghGroceryStore.Shared.SurveyPrompt",
-        "AssemblyName": "JaspreetsinghGroceryStore",
+        "Name": "JaspreetSinghGrocerystore.Pages.Counter",
+        "AssemblyName": "JaspreetSinghGrocerystore",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Counter"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "JaspreetSinghGrocerystore.Pages.Counter"
+        }
+      },
+      {
+        "HashCode": -1812824456,
+        "Kind": "Components.Component",
+        "Name": "JaspreetSinghGrocerystore.Pages.Counter",
+        "AssemblyName": "JaspreetSinghGrocerystore",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "JaspreetSinghGrocerystore.Pages.Counter"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "JaspreetSinghGrocerystore.Pages.Counter",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -530191786,
+        "Kind": "Components.Component",
+        "Name": "JaspreetSinghGrocerystore.Shared.SurveyPrompt",
+        "AssemblyName": "JaspreetSinghGrocerystore",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
@@ -166,18 +186,18 @@
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "JaspreetsinghGroceryStore.Shared.SurveyPrompt"
+          "Common.TypeName": "JaspreetSinghGrocerystore.Shared.SurveyPrompt"
         }
       },
       {
-        "HashCode": 1659177086,
+        "HashCode": 1265182151,
         "Kind": "Components.Component",
-        "Name": "JaspreetsinghGroceryStore.Shared.SurveyPrompt",
-        "AssemblyName": "JaspreetsinghGroceryStore",
+        "Name": "JaspreetSinghGrocerystore.Shared.SurveyPrompt",
+        "AssemblyName": "JaspreetSinghGrocerystore",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "JaspreetsinghGroceryStore.Shared.SurveyPrompt"
+            "TagName": "JaspreetSinghGrocerystore.Shared.SurveyPrompt"
           }
         ],
         "BoundAttributes": [
@@ -192,15 +212,15 @@
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "JaspreetsinghGroceryStore.Shared.SurveyPrompt",
+          "Common.TypeName": "JaspreetSinghGrocerystore.Shared.SurveyPrompt",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
       {
-        "HashCode": 799024062,
+        "HashCode": 1451734145,
         "Kind": "Components.Component",
-        "Name": "JaspreetsinghGroceryStore.Shared.MainLayout",
-        "AssemblyName": "JaspreetsinghGroceryStore",
+        "Name": "JaspreetSinghGrocerystore.Shared.MainLayout",
+        "AssemblyName": "JaspreetSinghGrocerystore",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
@@ -221,18 +241,18 @@
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "JaspreetsinghGroceryStore.Shared.MainLayout"
+          "Common.TypeName": "JaspreetSinghGrocerystore.Shared.MainLayout"
         }
       },
       {
-        "HashCode": -1263409342,
+        "HashCode": 1433417665,
         "Kind": "Components.Component",
-        "Name": "JaspreetsinghGroceryStore.Shared.MainLayout",
-        "AssemblyName": "JaspreetsinghGroceryStore",
+        "Name": "JaspreetSinghGrocerystore.Shared.MainLayout",
+        "AssemblyName": "JaspreetSinghGrocerystore",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "JaspreetsinghGroceryStore.Shared.MainLayout"
+            "TagName": "JaspreetSinghGrocerystore.Shared.MainLayout"
           }
         ],
         "BoundAttributes": [
@@ -249,15 +269,15 @@
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "JaspreetsinghGroceryStore.Shared.MainLayout",
+          "Common.TypeName": "JaspreetSinghGrocerystore.Shared.MainLayout",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
       {
-        "HashCode": 349927680,
+        "HashCode": 1693031896,
         "Kind": "Components.ChildContent",
-        "Name": "JaspreetsinghGroceryStore.Shared.MainLayout.Body",
-        "AssemblyName": "JaspreetsinghGroceryStore",
+        "Name": "JaspreetSinghGrocerystore.Shared.MainLayout.Body",
+        "AssemblyName": "JaspreetSinghGrocerystore",
         "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
         "CaseSensitive": true,
         "TagMatchingRules": [
@@ -268,35 +288,35 @@
         ],
         "Metadata": {
           "Runtime.Name": "Components.None",
-          "Common.TypeName": "JaspreetsinghGroceryStore.Shared.MainLayout.Body",
+          "Common.TypeName": "JaspreetSinghGrocerystore.Shared.MainLayout.Body",
           "Components.IsSpecialKind": "Components.ChildContent"
         }
       },
       {
-        "HashCode": -546228783,
+        "HashCode": -988691125,
         "Kind": "Components.ChildContent",
-        "Name": "JaspreetsinghGroceryStore.Shared.MainLayout.Body",
-        "AssemblyName": "JaspreetsinghGroceryStore",
+        "Name": "JaspreetSinghGrocerystore.Shared.MainLayout.Body",
+        "AssemblyName": "JaspreetSinghGrocerystore",
         "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
             "TagName": "Body",
-            "ParentTag": "JaspreetsinghGroceryStore.Shared.MainLayout"
+            "ParentTag": "JaspreetSinghGrocerystore.Shared.MainLayout"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.None",
-          "Common.TypeName": "JaspreetsinghGroceryStore.Shared.MainLayout.Body",
+          "Common.TypeName": "JaspreetSinghGrocerystore.Shared.MainLayout.Body",
           "Components.IsSpecialKind": "Components.ChildContent",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
       {
-        "HashCode": -1107692563,
+        "HashCode": -1864456097,
         "Kind": "Components.Component",
-        "Name": "JaspreetsinghGroceryStore.Shared.NavMenu",
-        "AssemblyName": "JaspreetsinghGroceryStore",
+        "Name": "JaspreetSinghGrocerystore.Shared.NavMenu",
+        "AssemblyName": "JaspreetSinghGrocerystore",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
@@ -305,23 +325,56 @@
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "JaspreetsinghGroceryStore.Shared.NavMenu"
+          "Common.TypeName": "JaspreetSinghGrocerystore.Shared.NavMenu"
         }
       },
       {
-        "HashCode": -766478898,
+        "HashCode": 617925298,
         "Kind": "Components.Component",
-        "Name": "JaspreetsinghGroceryStore.Shared.NavMenu",
-        "AssemblyName": "JaspreetsinghGroceryStore",
+        "Name": "JaspreetSinghGrocerystore.Shared.NavMenu",
+        "AssemblyName": "JaspreetSinghGrocerystore",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "JaspreetsinghGroceryStore.Shared.NavMenu"
+            "TagName": "JaspreetSinghGrocerystore.Shared.NavMenu"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "JaspreetsinghGroceryStore.Shared.NavMenu",
+          "Common.TypeName": "JaspreetSinghGrocerystore.Shared.NavMenu",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 326989866,
+        "Kind": "Components.Component",
+        "Name": "JaspreetSinghGrocerystore.App",
+        "AssemblyName": "JaspreetSinghGrocerystore",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "JaspreetSinghGrocerystore.App"
+        }
+      },
+      {
+        "HashCode": 1381920701,
+        "Kind": "Components.Component",
+        "Name": "JaspreetSinghGrocerystore.App",
+        "AssemblyName": "JaspreetSinghGrocerystore",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "JaspreetSinghGrocerystore.App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "JaspreetSinghGrocerystore.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -15930,62 +15983,62 @@
     ],
     "CSharpLanguageVersion": 900
   },
-  "RootNamespace": "JaspreetsinghGroceryStore",
+  "RootNamespace": "JaspreetSinghGrocerystore",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\Cheema\\Documents\\GitHub\\JaspreetsinghGroceryStore\\App.razor",
-      "TargetPath": "App.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\Cheema\\Documents\\GitHub\\JaspreetsinghGroceryStore\\Pages\\FetchData.razor",
-      "TargetPath": "Pages\\FetchData.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\Cheema\\Documents\\GitHub\\JaspreetsinghGroceryStore\\Pages\\Error.cshtml",
-      "TargetPath": "Pages\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Cheema\\Documents\\GitHub\\JaspreetsinghGroceryStore\\Pages\\GroceryStore.razor",
-      "TargetPath": "Pages\\GroceryStore.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\Cheema\\Documents\\GitHub\\JaspreetsinghGroceryStore\\Shared\\MainLayout.razor",
-      "TargetPath": "Shared\\MainLayout.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\Cheema\\Documents\\GitHub\\JaspreetsinghGroceryStore\\Shared\\NavMenu.razor",
+      "FilePath": "c:\\Users\\Cheema\\Documents\\GitHub\\JaspreetSingh_WEB315Assignments\\JaspreetSinghGrocerystore\\Shared\\NavMenu.razor",
       "TargetPath": "Shared\\NavMenu.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Users\\Cheema\\Documents\\GitHub\\JaspreetsinghGroceryStore\\Pages\\_Host.cshtml",
-      "TargetPath": "Pages\\_Host.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Cheema\\Documents\\GitHub\\JaspreetsinghGroceryStore\\Pages\\Index.razor",
-      "TargetPath": "Pages\\Index.razor",
+      "FilePath": "c:\\Users\\Cheema\\Documents\\GitHub\\JaspreetSingh_WEB315Assignments\\JaspreetSinghGrocerystore\\Pages\\GroceryStore.razor",
+      "TargetPath": "Pages\\GroceryStore.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Users\\Cheema\\Documents\\GitHub\\JaspreetsinghGroceryStore\\Shared\\SurveyPrompt.razor",
-      "TargetPath": "Shared\\SurveyPrompt.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\Cheema\\Documents\\GitHub\\JaspreetsinghGroceryStore\\_Imports.razor",
+      "FilePath": "c:\\Users\\Cheema\\Documents\\GitHub\\JaspreetSingh_WEB315Assignments\\JaspreetSinghGrocerystore\\_Imports.razor",
       "TargetPath": "_Imports.razor",
       "FileKind": "componentImport"
     },
     {
-      "FilePath": "c:\\Users\\Cheema\\Documents\\GitHub\\JaspreetsinghGroceryStore\\Pages\\Counter.razor",
+      "FilePath": "c:\\Users\\Cheema\\Documents\\GitHub\\JaspreetSingh_WEB315Assignments\\JaspreetSinghGrocerystore\\Shared\\SurveyPrompt.razor",
+      "TargetPath": "Shared\\SurveyPrompt.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\Cheema\\Documents\\GitHub\\JaspreetSingh_WEB315Assignments\\JaspreetSinghGrocerystore\\Pages\\FetchData.razor",
+      "TargetPath": "Pages\\FetchData.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\Cheema\\Documents\\GitHub\\JaspreetSingh_WEB315Assignments\\JaspreetSinghGrocerystore\\Pages\\_Host.cshtml",
+      "TargetPath": "Pages\\_Host.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Cheema\\Documents\\GitHub\\JaspreetSingh_WEB315Assignments\\JaspreetSinghGrocerystore\\Shared\\MainLayout.razor",
+      "TargetPath": "Shared\\MainLayout.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\Cheema\\Documents\\GitHub\\JaspreetSingh_WEB315Assignments\\JaspreetSinghGrocerystore\\Pages\\Index.razor",
+      "TargetPath": "Pages\\Index.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\Cheema\\Documents\\GitHub\\JaspreetSingh_WEB315Assignments\\JaspreetSinghGrocerystore\\App.razor",
+      "TargetPath": "App.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\Cheema\\Documents\\GitHub\\JaspreetSingh_WEB315Assignments\\JaspreetSinghGrocerystore\\Pages\\Counter.razor",
       "TargetPath": "Pages\\Counter.razor",
       "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\Cheema\\Documents\\GitHub\\JaspreetSingh_WEB315Assignments\\JaspreetSinghGrocerystore\\Pages\\Error.cshtml",
+      "TargetPath": "Pages\\Error.cshtml",
+      "FileKind": "mvc"
     }
   ],
   "SerializationFormat": "0.2"

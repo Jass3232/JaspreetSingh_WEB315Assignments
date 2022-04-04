@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace JaspreetsinghGroceryStore.Pages
+namespace JaspreetSinghGrocerystore.Pages
 {
     #line hidden
     using System;
@@ -13,78 +13,78 @@ namespace JaspreetsinghGroceryStore.Pages
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "c:\Users\Cheema\Documents\GitHub\JaspreetsinghGroceryStore\_Imports.razor"
+#line 1 "c:\Users\Cheema\Documents\GitHub\JaspreetSingh_WEB315Assignments\JaspreetSinghGrocerystore\_Imports.razor"
 using System.Net.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "c:\Users\Cheema\Documents\GitHub\JaspreetsinghGroceryStore\_Imports.razor"
+#line 2 "c:\Users\Cheema\Documents\GitHub\JaspreetSingh_WEB315Assignments\JaspreetSinghGrocerystore\_Imports.razor"
 using Microsoft.AspNetCore.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "c:\Users\Cheema\Documents\GitHub\JaspreetsinghGroceryStore\_Imports.razor"
+#line 3 "c:\Users\Cheema\Documents\GitHub\JaspreetSingh_WEB315Assignments\JaspreetSinghGrocerystore\_Imports.razor"
 using Microsoft.AspNetCore.Components.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "c:\Users\Cheema\Documents\GitHub\JaspreetsinghGroceryStore\_Imports.razor"
+#line 4 "c:\Users\Cheema\Documents\GitHub\JaspreetSingh_WEB315Assignments\JaspreetSinghGrocerystore\_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "c:\Users\Cheema\Documents\GitHub\JaspreetsinghGroceryStore\_Imports.razor"
+#line 5 "c:\Users\Cheema\Documents\GitHub\JaspreetSingh_WEB315Assignments\JaspreetSinghGrocerystore\_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "c:\Users\Cheema\Documents\GitHub\JaspreetsinghGroceryStore\_Imports.razor"
+#line 6 "c:\Users\Cheema\Documents\GitHub\JaspreetSingh_WEB315Assignments\JaspreetSinghGrocerystore\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "c:\Users\Cheema\Documents\GitHub\JaspreetsinghGroceryStore\_Imports.razor"
+#line 7 "c:\Users\Cheema\Documents\GitHub\JaspreetSingh_WEB315Assignments\JaspreetSinghGrocerystore\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web.Virtualization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "c:\Users\Cheema\Documents\GitHub\JaspreetsinghGroceryStore\_Imports.razor"
+#line 8 "c:\Users\Cheema\Documents\GitHub\JaspreetSingh_WEB315Assignments\JaspreetSinghGrocerystore\_Imports.razor"
 using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "c:\Users\Cheema\Documents\GitHub\JaspreetsinghGroceryStore\_Imports.razor"
-using JaspreetsinghGroceryStore;
+#line 9 "c:\Users\Cheema\Documents\GitHub\JaspreetSingh_WEB315Assignments\JaspreetSinghGrocerystore\_Imports.razor"
+using JaspreetSinghGrocerystore;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 10 "c:\Users\Cheema\Documents\GitHub\JaspreetsinghGroceryStore\_Imports.razor"
-using JaspreetsinghGroceryStore.Shared;
+#line 10 "c:\Users\Cheema\Documents\GitHub\JaspreetSingh_WEB315Assignments\JaspreetSinghGrocerystore\_Imports.razor"
+using JaspreetSinghGrocerystore.Shared;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "c:\Users\Cheema\Documents\GitHub\JaspreetsinghGroceryStore\Pages\FetchData.razor"
-using JaspreetsinghGroceryStore.Data;
+#line 3 "c:\Users\Cheema\Documents\GitHub\JaspreetSingh_WEB315Assignments\JaspreetSinghGrocerystore\Pages\FetchData.razor"
+using JaspreetSinghGrocerystore.Data;
 
 #line default
 #line hidden
@@ -98,7 +98,7 @@ using JaspreetsinghGroceryStore.Data;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 39 "c:\Users\Cheema\Documents\GitHub\JaspreetsinghGroceryStore\Pages\FetchData.razor"
+#line 39 "c:\Users\Cheema\Documents\GitHub\JaspreetSingh_WEB315Assignments\JaspreetSinghGrocerystore\Pages\FetchData.razor"
        
     private WeatherForecast[] forecasts;
 
