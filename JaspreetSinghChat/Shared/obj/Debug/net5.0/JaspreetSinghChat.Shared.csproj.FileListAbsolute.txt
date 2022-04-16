@@ -1,0 +1,12 @@
+C:\Users\Cheema\Documents\GitHub\JaspreetSinghChat\Shared\bin\Debug\net5.0\JaspreetSinghChat.Shared.deps.json
+C:\Users\Cheema\Documents\GitHub\JaspreetSinghChat\Shared\bin\Debug\net5.0\JaspreetSinghChat.Shared.dll
+C:\Users\Cheema\Documents\GitHub\JaspreetSinghChat\Shared\bin\Debug\net5.0\ref\JaspreetSinghChat.Shared.dll
+C:\Users\Cheema\Documents\GitHub\JaspreetSinghChat\Shared\bin\Debug\net5.0\JaspreetSinghChat.Shared.pdb
+C:\Users\Cheema\Documents\GitHub\JaspreetSinghChat\Shared\obj\Debug\net5.0\JaspreetSinghChat.Shared.csproj.AssemblyReference.cache
+C:\Users\Cheema\Documents\GitHub\JaspreetSinghChat\Shared\obj\Debug\net5.0\JaspreetSinghChat.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cheema\Documents\GitHub\JaspreetSinghChat\Shared\obj\Debug\net5.0\JaspreetSinghChat.Shared.AssemblyInfoInputs.cache
+C:\Users\Cheema\Documents\GitHub\JaspreetSinghChat\Shared\obj\Debug\net5.0\JaspreetSinghChat.Shared.AssemblyInfo.cs
+C:\Users\Cheema\Documents\GitHub\JaspreetSinghChat\Shared\obj\Debug\net5.0\JaspreetSinghChat.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Cheema\Documents\GitHub\JaspreetSinghChat\Shared\obj\Debug\net5.0\JaspreetSinghChat.Shared.dll
+C:\Users\Cheema\Documents\GitHub\JaspreetSinghChat\Shared\obj\Debug\net5.0\ref\JaspreetSinghChat.Shared.dll
+C:\Users\Cheema\Documents\GitHub\JaspreetSinghChat\Shared\obj\Debug\net5.0\JaspreetSinghChat.Shared.pdb

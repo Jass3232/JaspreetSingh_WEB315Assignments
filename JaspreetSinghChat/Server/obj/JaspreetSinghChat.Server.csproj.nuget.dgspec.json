@@ -1,0 +1,218 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Cheema\\Documents\\GitHub\\JaspreetSinghChat\\SERVER\\JaspreetSinghChat.Server.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Cheema\\Documents\\GitHub\\JaspreetSinghChat\\Client\\JaspreetSinghChat.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Cheema\\Documents\\GitHub\\JaspreetSinghChat\\Client\\JaspreetSinghChat.Client.csproj",
+        "projectName": "JaspreetSinghChat.Client",
+        "projectPath": "C:\\Users\\Cheema\\Documents\\GitHub\\JaspreetSinghChat\\Client\\JaspreetSinghChat.Client.csproj",
+        "packagesPath": "C:\\Users\\Cheema\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Cheema\\Documents\\GitHub\\JaspreetSinghChat\\Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Cheema\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Cheema\\Documents\\GitHub\\JaspreetSinghChat\\Shared\\JaspreetSinghChat.Shared.csproj": {
+                "projectPath": "C:\\Users\\Cheema\\Documents\\GitHub\\JaspreetSinghChat\\Shared\\JaspreetSinghChat.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.AspNetCore.SignalR.Client": {
+              "target": "Package",
+              "version": "[5.0.15, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.browser-wasm",
+              "version": "[5.0.16, 5.0.16]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\Cheema\\Documents\\GitHub\\JaspreetSinghChat\\SERVER\\JaspreetSinghChat.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Cheema\\Documents\\GitHub\\JaspreetSinghChat\\SERVER\\JaspreetSinghChat.Server.csproj",
+        "projectName": "JaspreetSinghChat.Server",
+        "projectPath": "C:\\Users\\Cheema\\Documents\\GitHub\\JaspreetSinghChat\\SERVER\\JaspreetSinghChat.Server.csproj",
+        "packagesPath": "C:\\Users\\Cheema\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Cheema\\Documents\\GitHub\\JaspreetSinghChat\\SERVER\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Cheema\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Cheema\\Documents\\GitHub\\JaspreetSinghChat\\Client\\JaspreetSinghChat.Client.csproj": {
+                "projectPath": "C:\\Users\\Cheema\\Documents\\GitHub\\JaspreetSinghChat\\Client\\JaspreetSinghChat.Client.csproj"
+              },
+              "C:\\Users\\Cheema\\Documents\\GitHub\\JaspreetSinghChat\\Shared\\JaspreetSinghChat.Shared.csproj": {
+                "projectPath": "C:\\Users\\Cheema\\Documents\\GitHub\\JaspreetSinghChat\\Shared\\JaspreetSinghChat.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.AspNetCore.SignalR.Client": {
+              "target": "Package",
+              "version": "[5.0.15, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Cheema\\Documents\\GitHub\\JaspreetSinghChat\\Shared\\JaspreetSinghChat.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Cheema\\Documents\\GitHub\\JaspreetSinghChat\\Shared\\JaspreetSinghChat.Shared.csproj",
+        "projectName": "JaspreetSinghChat.Shared",
+        "projectPath": "C:\\Users\\Cheema\\Documents\\GitHub\\JaspreetSinghChat\\Shared\\JaspreetSinghChat.Shared.csproj",
+        "packagesPath": "C:\\Users\\Cheema\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Cheema\\Documents\\GitHub\\JaspreetSinghChat\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Cheema\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

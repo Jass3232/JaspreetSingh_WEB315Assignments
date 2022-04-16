@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Cheema\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Cheema\\.nuget\\packages"
+    ]
+  }
+}
