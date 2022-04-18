@@ -13,77 +13,77 @@ namespace JaspreetSinghChat.Client
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "C:\Users\Cheema\Documents\GitHub\JaspreetSinghChat\client\_Imports.razor"
+#line 1 "C:\Users\Cheema\Documents\GitHub\JaspreetSinghChat\Client\_Imports.razor"
 using System.Net.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "C:\Users\Cheema\Documents\GitHub\JaspreetSinghChat\client\_Imports.razor"
+#line 2 "C:\Users\Cheema\Documents\GitHub\JaspreetSinghChat\Client\_Imports.razor"
 using System.Net.Http.Json;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "C:\Users\Cheema\Documents\GitHub\JaspreetSinghChat\client\_Imports.razor"
+#line 3 "C:\Users\Cheema\Documents\GitHub\JaspreetSinghChat\Client\_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "C:\Users\Cheema\Documents\GitHub\JaspreetSinghChat\client\_Imports.razor"
+#line 4 "C:\Users\Cheema\Documents\GitHub\JaspreetSinghChat\Client\_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "C:\Users\Cheema\Documents\GitHub\JaspreetSinghChat\client\_Imports.razor"
+#line 5 "C:\Users\Cheema\Documents\GitHub\JaspreetSinghChat\Client\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "C:\Users\Cheema\Documents\GitHub\JaspreetSinghChat\client\_Imports.razor"
+#line 6 "C:\Users\Cheema\Documents\GitHub\JaspreetSinghChat\Client\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web.Virtualization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "C:\Users\Cheema\Documents\GitHub\JaspreetSinghChat\client\_Imports.razor"
+#line 7 "C:\Users\Cheema\Documents\GitHub\JaspreetSinghChat\Client\_Imports.razor"
 using Microsoft.AspNetCore.Components.WebAssembly.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "C:\Users\Cheema\Documents\GitHub\JaspreetSinghChat\client\_Imports.razor"
+#line 8 "C:\Users\Cheema\Documents\GitHub\JaspreetSinghChat\Client\_Imports.razor"
 using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "C:\Users\Cheema\Documents\GitHub\JaspreetSinghChat\client\_Imports.razor"
+#line 9 "C:\Users\Cheema\Documents\GitHub\JaspreetSinghChat\Client\_Imports.razor"
 using JaspreetSinghChat.Client;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 10 "C:\Users\Cheema\Documents\GitHub\JaspreetSinghChat\client\_Imports.razor"
+#line 10 "C:\Users\Cheema\Documents\GitHub\JaspreetSinghChat\Client\_Imports.razor"
 using JaspreetSinghChat.Client.Shared;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "C:\Users\Cheema\Documents\GitHub\JaspreetSinghChat\client\Chat.razor"
+#line 2 "C:\Users\Cheema\Documents\GitHub\JaspreetSinghChat\Client\Chat.razor"
 using Microsoft.AspNetCore.SignalR.Client;
 
 #line default
@@ -98,12 +98,14 @@ using Microsoft.AspNetCore.SignalR.Client;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 29 "C:\Users\Cheema\Documents\GitHub\JaspreetSinghChat\client\Chat.razor"
+#line 29 "C:\Users\Cheema\Documents\GitHub\JaspreetSinghChat\Client\Chat.razor"
        
     private HubConnection hubConnection;
     private List<string> messages = new List<string>();
     private string NameInput;
     private string messageInput;
+     
+     private string SendSomeoneTyping;
 
     protected override async Task OnInitializedAsync()
     {
@@ -117,7 +119,13 @@ using Microsoft.AspNetCore.SignalR.Client;
             messages.Add(encodedMsg);
             StateHasChanged();
         });
-
+ hubConnection.On<string>("SendSomeoneTyping", (user) =>
+        {
+            if (string.IsNullOrEmpty(user)) SendSomeoneTyping = "is typing ..";
+            else SendSomeoneTyping = $"{user} is typing..";
+            SendSomeoneTyping = "";
+            StateHasChanged();
+        });
         await hubConnection.StartAsync();
     }
 

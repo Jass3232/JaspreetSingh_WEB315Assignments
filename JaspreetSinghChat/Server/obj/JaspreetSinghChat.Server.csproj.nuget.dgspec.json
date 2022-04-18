@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Cheema\\Documents\\GitHub\\JaspreetSinghChat\\SERVER\\JaspreetSinghChat.Server.csproj": {}
+    "C:\\Users\\Cheema\\Documents\\GitHub\\JaspreetSinghChat\\server\\JaspreetSinghChat.Server.csproj": {}
   },
   "projects": {
     "C:\\Users\\Cheema\\Documents\\GitHub\\JaspreetSinghChat\\Client\\JaspreetSinghChat.Client.csproj": {
@@ -90,14 +90,14 @@
         }
       }
     },
-    "C:\\Users\\Cheema\\Documents\\GitHub\\JaspreetSinghChat\\SERVER\\JaspreetSinghChat.Server.csproj": {
+    "C:\\Users\\Cheema\\Documents\\GitHub\\JaspreetSinghChat\\server\\JaspreetSinghChat.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Cheema\\Documents\\GitHub\\JaspreetSinghChat\\SERVER\\JaspreetSinghChat.Server.csproj",
+        "projectUniqueName": "C:\\Users\\Cheema\\Documents\\GitHub\\JaspreetSinghChat\\server\\JaspreetSinghChat.Server.csproj",
         "projectName": "JaspreetSinghChat.Server",
-        "projectPath": "C:\\Users\\Cheema\\Documents\\GitHub\\JaspreetSinghChat\\SERVER\\JaspreetSinghChat.Server.csproj",
+        "projectPath": "C:\\Users\\Cheema\\Documents\\GitHub\\JaspreetSinghChat\\server\\JaspreetSinghChat.Server.csproj",
         "packagesPath": "C:\\Users\\Cheema\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Cheema\\Documents\\GitHub\\JaspreetSinghChat\\SERVER\\obj\\",
+        "outputPath": "C:\\Users\\Cheema\\Documents\\GitHub\\JaspreetSinghChat\\server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Cheema\\AppData\\Roaming\\NuGet\\NuGet.Config"

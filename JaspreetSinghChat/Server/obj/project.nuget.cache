@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kgg8+v9fQryvbY0840dwaF1xSKHduaxw/LneQE7V4X3513+C2kMxXKgf0B4EPbNDHTHaxeXeietnJawspXwQjg==",
+  "dgSpecHash": "pXbVAGAMxrOKt1qTSI+J+DpHo03H04SX26iOnAGCtVN+YSJOs1w9BXMeUZdzWL37rfMSxOnCosU7Uyq3FkNnEw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Cheema\\Documents\\GitHub\\JaspreetSinghChat\\SERVER\\JaspreetSinghChat.Server.csproj",
+  "projectFilePath": "C:\\Users\\Cheema\\Documents\\GitHub\\JaspreetSinghChat\\server\\JaspreetSinghChat.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Cheema\\.nuget\\packages\\microsoft.aspnetcore.authorization\\5.0.16\\microsoft.aspnetcore.authorization.5.0.16.nupkg.sha512",
     "C:\\Users\\Cheema\\.nuget\\packages\\microsoft.aspnetcore.components\\5.0.16\\microsoft.aspnetcore.components.5.0.16.nupkg.sha512",

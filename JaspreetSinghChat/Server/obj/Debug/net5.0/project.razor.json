@@ -3927,6 +3927,353 @@
         }
       },
       {
+        "HashCode": -1484199899,
+        "Kind": "Components.Component",
+        "Name": "JaspreetSinghChat.Client.App",
+        "AssemblyName": "JaspreetSinghChat.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "JaspreetSinghChat.Client.App"
+        }
+      },
+      {
+        "HashCode": -21096353,
+        "Kind": "Components.Component",
+        "Name": "JaspreetSinghChat.Client.App",
+        "AssemblyName": "JaspreetSinghChat.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "JaspreetSinghChat.Client.App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "JaspreetSinghChat.Client.App",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -394611056,
+        "Kind": "Components.Component",
+        "Name": "JaspreetSinghChat.Client.Chat",
+        "AssemblyName": "JaspreetSinghChat.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Chat"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "JaspreetSinghChat.Client.Chat"
+        }
+      },
+      {
+        "HashCode": 1721257519,
+        "Kind": "Components.Component",
+        "Name": "JaspreetSinghChat.Client.Chat",
+        "AssemblyName": "JaspreetSinghChat.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "JaspreetSinghChat.Client.Chat"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "JaspreetSinghChat.Client.Chat",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1653662975,
+        "Kind": "Components.Component",
+        "Name": "JaspreetSinghChat.Client.Pages.Counter",
+        "AssemblyName": "JaspreetSinghChat.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Counter"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "JaspreetSinghChat.Client.Pages.Counter"
+        }
+      },
+      {
+        "HashCode": 9838914,
+        "Kind": "Components.Component",
+        "Name": "JaspreetSinghChat.Client.Pages.Counter",
+        "AssemblyName": "JaspreetSinghChat.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "JaspreetSinghChat.Client.Pages.Counter"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "JaspreetSinghChat.Client.Pages.Counter",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -261944830,
+        "Kind": "Components.Component",
+        "Name": "JaspreetSinghChat.Client.Pages.FetchData",
+        "AssemblyName": "JaspreetSinghChat.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "JaspreetSinghChat.Client.Pages.FetchData"
+        }
+      },
+      {
+        "HashCode": -298516941,
+        "Kind": "Components.Component",
+        "Name": "JaspreetSinghChat.Client.Pages.FetchData",
+        "AssemblyName": "JaspreetSinghChat.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "JaspreetSinghChat.Client.Pages.FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "JaspreetSinghChat.Client.Pages.FetchData",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -2066976094,
+        "Kind": "Components.Component",
+        "Name": "JaspreetSinghChat.Client.Pages.Index",
+        "AssemblyName": "JaspreetSinghChat.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "JaspreetSinghChat.Client.Pages.Index"
+        }
+      },
+      {
+        "HashCode": 941219678,
+        "Kind": "Components.Component",
+        "Name": "JaspreetSinghChat.Client.Pages.Index",
+        "AssemblyName": "JaspreetSinghChat.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "JaspreetSinghChat.Client.Pages.Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "JaspreetSinghChat.Client.Pages.Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 26585494,
+        "Kind": "Components.Component",
+        "Name": "JaspreetSinghChat.Client.Shared.SurveyPrompt",
+        "AssemblyName": "JaspreetSinghChat.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "JaspreetSinghChat.Client.Shared.SurveyPrompt"
+        }
+      },
+      {
+        "HashCode": 901169136,
+        "Kind": "Components.Component",
+        "Name": "JaspreetSinghChat.Client.Shared.SurveyPrompt",
+        "AssemblyName": "JaspreetSinghChat.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "JaspreetSinghChat.Client.Shared.SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "JaspreetSinghChat.Client.Shared.SurveyPrompt",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1648975504,
+        "Kind": "Components.Component",
+        "Name": "JaspreetSinghChat.Client.Shared.MainLayout",
+        "AssemblyName": "JaspreetSinghChat.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MainLayout"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Body",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Body",
+              "Components.ChildContent": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "JaspreetSinghChat.Client.Shared.MainLayout"
+        }
+      },
+      {
+        "HashCode": 1837803832,
+        "Kind": "Components.Component",
+        "Name": "JaspreetSinghChat.Client.Shared.MainLayout",
+        "AssemblyName": "JaspreetSinghChat.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "JaspreetSinghChat.Client.Shared.MainLayout"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Body",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Body",
+              "Components.ChildContent": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "JaspreetSinghChat.Client.Shared.MainLayout",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -732332260,
+        "Kind": "Components.ChildContent",
+        "Name": "JaspreetSinghChat.Client.Shared.MainLayout.Body",
+        "AssemblyName": "JaspreetSinghChat.Client",
+        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Body",
+            "ParentTag": "MainLayout"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "JaspreetSinghChat.Client.Shared.MainLayout.Body",
+          "Components.IsSpecialKind": "Components.ChildContent"
+        }
+      },
+      {
+        "HashCode": 108778778,
+        "Kind": "Components.ChildContent",
+        "Name": "JaspreetSinghChat.Client.Shared.MainLayout.Body",
+        "AssemblyName": "JaspreetSinghChat.Client",
+        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Body",
+            "ParentTag": "JaspreetSinghChat.Client.Shared.MainLayout"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "JaspreetSinghChat.Client.Shared.MainLayout.Body",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1405233677,
+        "Kind": "Components.Component",
+        "Name": "JaspreetSinghChat.Client.Shared.NavMenu",
+        "AssemblyName": "JaspreetSinghChat.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "JaspreetSinghChat.Client.Shared.NavMenu"
+        }
+      },
+      {
+        "HashCode": -465052491,
+        "Kind": "Components.Component",
+        "Name": "JaspreetSinghChat.Client.Shared.NavMenu",
+        "AssemblyName": "JaspreetSinghChat.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "JaspreetSinghChat.Client.Shared.NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "JaspreetSinghChat.Client.Shared.NavMenu",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 186592043,
         "Kind": "Components.EventHandler",
         "Name": "onfocus",

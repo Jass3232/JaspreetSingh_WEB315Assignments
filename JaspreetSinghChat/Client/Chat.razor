@@ -6,7 +6,7 @@
 <div class="form-group">
     <label>
         Name:
-        <input @bind="NameInput" />
+        <input @bind="NameInput" @onfocusin="focus()" @onfocusout="blur()"/>
     </label>
 </div>
 <div class="form-group">
@@ -31,6 +31,8 @@
     private List<string> messages = new List<string>();
     private string NameInput;
     private string messageInput;
+     
+     private string SendSomeoneTyping;
 
     protected override async Task OnInitializedAsync()
     {
@@ -44,7 +46,13 @@
             messages.Add(encodedMsg);
             StateHasChanged();
         });
-
+ hubConnection.On<string>("SendSomeoneTyping", (user) =>
+        {
+           
+            SendSomeoneTyping = "";
+            StateHasChanged();
+        });
+        
         await hubConnection.StartAsync();
     }
 
@@ -61,4 +69,14 @@
             await hubConnection.DisposeAsync();
         }
     }
+}
+<script>
+
+function focus() {
+  document.getElementById("myInput").style.background = "blue";
+}
+
+
+function blur() {
+  document.getElementById("myInput").style.background = "white";
 }

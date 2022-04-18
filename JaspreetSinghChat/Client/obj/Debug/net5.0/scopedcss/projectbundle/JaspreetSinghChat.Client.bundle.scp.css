@@ -1,5 +1,15 @@
 @import '';
 
+/* /chat.razor.rz.scp.css */
+
+
+.messagesList[b-zat5yl73mx]{
+    text-align: right;
+    color: rgb(255, 238, 0);
+    background-color: #3e2b04;
+    border: hsl(155, 89%, 33%);
+
+}
 /* /Shared/MainLayout.razor.rz.scp.css */
 .page[b-8uomq2g1ok] {
     position: relative;

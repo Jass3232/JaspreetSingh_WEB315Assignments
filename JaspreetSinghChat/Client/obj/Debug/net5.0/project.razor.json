@@ -8,35 +8,35 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": -2066976094,
+        "HashCode": -1484199899,
         "Kind": "Components.Component",
-        "Name": "JaspreetSinghChat.Client.Pages.Index",
+        "Name": "JaspreetSinghChat.Client.App",
         "AssemblyName": "JaspreetSinghChat.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Index"
+            "TagName": "App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "JaspreetSinghChat.Client.Pages.Index"
+          "Common.TypeName": "JaspreetSinghChat.Client.App"
         }
       },
       {
-        "HashCode": 941219678,
+        "HashCode": -21096353,
         "Kind": "Components.Component",
-        "Name": "JaspreetSinghChat.Client.Pages.Index",
+        "Name": "JaspreetSinghChat.Client.App",
         "AssemblyName": "JaspreetSinghChat.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "JaspreetSinghChat.Client.Pages.Index"
+            "TagName": "JaspreetSinghChat.Client.App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "JaspreetSinghChat.Client.Pages.Index",
+          "Common.TypeName": "JaspreetSinghChat.Client.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -103,6 +103,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "JaspreetSinghChat.Client.Pages.FetchData",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -2066976094,
+        "Kind": "Components.Component",
+        "Name": "JaspreetSinghChat.Client.Pages.Index",
+        "AssemblyName": "JaspreetSinghChat.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "JaspreetSinghChat.Client.Pages.Index"
+        }
+      },
+      {
+        "HashCode": 941219678,
+        "Kind": "Components.Component",
+        "Name": "JaspreetSinghChat.Client.Pages.Index",
+        "AssemblyName": "JaspreetSinghChat.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "JaspreetSinghChat.Client.Pages.Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "JaspreetSinghChat.Client.Pages.Index",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -289,35 +322,35 @@
         }
       },
       {
-        "HashCode": -1484199899,
+        "HashCode": -394611056,
         "Kind": "Components.Component",
-        "Name": "JaspreetSinghChat.Client.App",
+        "Name": "JaspreetSinghChat.Client.Chat",
         "AssemblyName": "JaspreetSinghChat.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "App"
+            "TagName": "Chat"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "JaspreetSinghChat.Client.App"
+          "Common.TypeName": "JaspreetSinghChat.Client.Chat"
         }
       },
       {
-        "HashCode": -21096353,
+        "HashCode": 1721257519,
         "Kind": "Components.Component",
-        "Name": "JaspreetSinghChat.Client.App",
+        "Name": "JaspreetSinghChat.Client.Chat",
         "AssemblyName": "JaspreetSinghChat.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "JaspreetSinghChat.Client.App"
+            "TagName": "JaspreetSinghChat.Client.Chat"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "JaspreetSinghChat.Client.App",
+          "Common.TypeName": "JaspreetSinghChat.Client.Chat",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -13049,8 +13082,8 @@
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Users\\Cheema\\Documents\\GitHub\\JaspreetSinghChat\\Client\\chat.razor",
-      "TargetPath": "chat.razor",
+      "FilePath": "c:\\Users\\Cheema\\Documents\\GitHub\\JaspreetSinghChat\\Client\\Chat.razor",
+      "TargetPath": "Chat.razor",
       "FileKind": "component"
     }
   ],

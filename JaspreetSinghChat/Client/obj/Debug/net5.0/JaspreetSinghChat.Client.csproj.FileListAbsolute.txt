@@ -660,3 +660,4 @@ C:\Users\Cheema\Documents\GitHub\JaspreetSinghChat\client\obj\Debug\net5.0\Jaspr
 C:\Users\Cheema\Documents\GitHub\JaspreetSinghChat\client\obj\Debug\net5.0\ref\JaspreetSinghChat.Client.dll
 C:\Users\Cheema\Documents\GitHub\JaspreetSinghChat\client\obj\Debug\net5.0\JaspreetSinghChat.Client.pdb
 C:\Users\Cheema\Documents\GitHub\JaspreetSinghChat\Client\obj\Debug\net5.0\build-gz\RJpOhKVe.gz
+C:\Users\Cheema\Documents\GitHub\JaspreetSinghChat\Client\obj\Debug\net5.0\scopedcss\chat.razor.rz.scp.css
